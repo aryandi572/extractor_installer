@@ -18,11 +18,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 # Reload bash to start using NVM
 source ~/.bashrc
 
-# Install Node.js 18.19.0 using NVM
-nvm install 18.19.0
+# Install Node.js 16.20.2 using NVM
+nvm install 16.20.2
 
-# Set Node.js 18.19.0 as the default version
-nvm alias default 18.19.0
+# Set Node.js 16.20.2 as the default version
+nvm alias default 16.20.2
 nvm use default
 
 # Install development tools
