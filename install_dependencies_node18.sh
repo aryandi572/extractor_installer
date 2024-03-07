@@ -9,11 +9,11 @@ fi
 # Update package lists
 apt-get update
 
-# Install Python
-apt-get install -y python
+# Install Python 3
+apt-get install -y python3
 
-# Install pip
-apt-get install -y python-pip
+# Install pip for Python 3
+apt-get install -y python3-pip
 
 # Install Node.js 18.19 and npm
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -23,7 +23,7 @@ sudo apt-get install -y npm
 # Install Java 17 (headless)
 apt-get install -y openjdk-17-jre-headless
 
-# Install tabula-py using pip
-pip install tabula-py
+# Install tabula-py using pip for Python 3
+pip3 install tabula-py
 
 echo "Installation completed successfully."
